@@ -1,0 +1,94 @@
+*{
+  width: auto;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+header{
+  height: 30vh;
+  background: url(img/banner_inovar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  display: flex;
+  gap: 580px;
+}
+
+nav{
+  background-color: rgb(52, 52, 52);
+  padding: 25px;
+  color: white;
+}
+
+a{
+  color: rgb(255, 255, 255);
+}
+
+.footer{
+  margin:auto;
+  top: auto;
+  padding: auto;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  text-align: center;
+  background-color: #201f1f;
+  position: relative;
+
+}
+.trabalho ul{
+gap:200px;
+}
+.serviços{
+  
+ text-align:auto;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  height: 300px;
+}
+
+.cards .card:nth-child(1){
+  width: 570px;
+  background: url(img/termo\ 1.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  bottom: 50px;
+}
+
+.cards .card:nth-child(2){
+  width: 550px;
+  background-position: center;
+  background: url(img/termo\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cards .card:nth-child(3){
+  background-position: center;
+  width: 550px;
+  background: url(img/termo\ 3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px){
+  .cards{
+    flex-wrap: wrap;
+    gap: 20px;
+  }}

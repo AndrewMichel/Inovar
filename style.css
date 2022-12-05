@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  height: 30vh;
+  
+  background: url(img/banner_inovar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav ul{
+  display: flex;
+  gap: 580px;
+}
+
+nav{
+  background-color: #292727;
+  padding: 25px;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.image{
+  background: url(img/fabrica.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#sobre p {
+  margin-top: 25px;
+  font-size: 20px;
+
+}
+#sobre h2 {
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+  
+
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#trabalho{
+  height: 80vh;
+}
+
+#trabalho h2{
+  margin-bottom: 20px;
+ text-align: center;
+}
+
+#trabalho p{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  height: 600px;
+}
+
+.cards .card:nth-child(1){
+  width: 550px;
+  background: url(img/entrada.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cards .card:nth-child(2){
+  width: 550px;
+  background-position: center;
+  background: url(img/maquinas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cards .card:nth-child(3){
+  background-position: center;
+  width: 550px;
+  background: url(img/maquinas_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px){
+  .cards{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+.footer{
+    margin:auto;
+    top: auto;
+    padding: auto;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    text-align: center;
+    background-color: #201f1f;
+    position: relative;
+
+}
+.trabalho ul{
+  gap:200px;
+}
